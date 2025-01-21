@@ -26,4 +26,8 @@ public class Main {
         random.nextBytes(array);
         return new String(array, Charset.forName("UTF-8"));
     }
+
+    public static Integer getRandom() {
+        return random.nextInt();
+    }
 }
